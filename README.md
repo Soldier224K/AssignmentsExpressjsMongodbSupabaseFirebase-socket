@@ -1,51 +1,68 @@
 # 🎓 Backend Development Curriculum & Assignments (1 to 15)
 ### ITM Skills University — Department of Computer Science & Engineering
+**Student Name:** Raj Rasal | **Student ID:** 150096725066
 
 Welcome to the comprehensive backend development assignment repository. This curriculum is designed to guide students progressively from core REST API principles to production-grade distributed architectures and real-time WebSocket applications.
 
 ---
 
-## 🧭 Assignment Roadmap & Overview
+## 🌐 Live Deployment & Project Directory
 
-| # | Assignment Title | Tech Stack & Core Concepts | Level | Folder Link |
-|:---:|:---|:---|:---:|:---|
-| **01** | **Hotel Management API** | Node.js, Express.js, Static/In-Memory Data, bcrypt, Passport-Local | Beginner | [View Assignment 01](./Assignment%2001%20-%20Hotel%20Management%20API/README.md) |
-| **02** | **Hospital Management API** | Node.js, Express.js, MongoDB, Mongoose, Passport Auth, CRUD | Beginner-Int | [View Assignment 02](./Assignment%2002%20-%20Hospital%20Management%20API/README.md) |
-| **03** | **Restaurant Management API** | Node.js, Express.js, MongoDB Atlas, JWT Auth, Bcrypt, Dotenv | Intermediate | [View Assignment 03](./Assignment%2003%20-%20Restaurant%20Management%20API/README.md) |
-| **04** | **Salon Management API** | Node.js, Express.js, Supabase (PostgreSQL), Supabase Auth/Client | Intermediate | [View Assignment 04](./Assignment%2004%20-%20Salon%20Management%20API/README.md) |
-| **05** | **Tic Tac Toe Multiplayer Game** | Node.js, Express.js, Socket.io, Real-time Rooms, Game State Engine | Intermediate | [View Assignment 05](./Assignment%2005%20-%20Tic%20Tac%20Toe%20Socket%20Game/README.md) |
-| **06** | **Library Management API** | Node.js, Express.js, Firebase Firestore/Auth, Rate Limiting, Swagger Docs | Intermediate-Adv | [View Assignment 06](./Assignment%2006%20-%20Library%20Management%20API/README.md) |
-| **07** | **E-Commerce Product & Cart API** | Node.js, Express.js, JSON File Storage/Static, Query Filtering, Middleware | Beginner | [View Assignment 07](./Assignment%2007%20-%20Ecommerce%20Product%20%26%20Cart%20API/README.md) |
-| **08** | **Gym & Fitness Management API** | Node.js, Express.js, MongoDB, Mongoose, Passport-Local Session Auth | Beginner-Int | [View Assignment 08](./Assignment%2008%20-%20Gym%20Management%20API/README.md) |
-| **09** | **Pharmacy Management API** | Node.js, Express.js, MongoDB Atlas, JWT, Role-Based Access Control (RBAC) | Intermediate | [View Assignment 09](./Assignment%2009%20-%20Pharmacy%20Management%20API/README.md) |
-| **10** | **Car Rental & Fleet System API** | Node.js, Express.js, Supabase Database & Auth, Booking Workflow | Intermediate | [View Assignment 10](./Assignment%2010%20-%20Car%20Rental%20System%20API/README.md) |
-| **11** | **Real-Time Collaborative Whiteboard** | Node.js, Express.js, Socket.io, Real-time Canvas Sync & Room State | Advanced | [View Assignment 11](./Assignment%2011%20-%20Real-Time%20Collaborative%20Whiteboard/README.md) |
-| **12** | **Event Management & Ticketing API** | Node.js, Express.js, Firebase Firestore, Rate Limiting, Swagger OpenAPI | Advanced | [View Assignment 12](./Assignment%2012%20-%20Event%20Management%20%26%20Ticketing%20API/README.md) |
-| **13** | **Real-Time Group Chat Application** | Node.js, Express.js, Socket.io, Chat Rooms, Typing Indicators, Presence | Real-time Focus | [View Assignment 13](./Assignment%2013%20-%20Real-Time%20Chat%20Application/README.md) |
-| **14** | **Real-Time Live Quiz & Trivia Platform**| Node.js, Express.js, Socket.io, Live Timers, Dynamic Leaderboard, Host/Player | Real-time Focus | [View Assignment 14](./Assignment%2014%20-%20Real-Time%20Live%20Quiz%20Platform/README.md) |
-| **15** | **Real-Time Live Auction & Bidding** | Node.js, Express.js, Socket.io, Live Outbidding Engine, Expiry Timers | Real-time Focus | [View Assignment 15](./Assignment%2015%20-%20Real-Time%20Live%20Auction%20Platform/README.md) |
+| # | Assignment Title | Tech Stack & Core Concepts | Live Production URL | Folder Link |
+|:---:|:---|:---|:---|:---|
+| **01** | **Hotel Management API** | Node.js, Express.js, Static Data, bcrypt, Passport-Local | [hotelmanagementapi-74g8.onrender.com](https://hotelmanagementapi-74g8.onrender.com/) | [Assignment 01](./Assignment%2001%20-%20Hotel%20Management%20API) |
+| **02** | **Hospital Management API** | Node.js, Express.js, MongoDB, Mongoose, Passport Auth | [hospital-management-api-2.onrender.com](https://hospital-management-api-2.onrender.com/) | [Assignment 02](./Assignment%2002%20-%20Hospital%20Management%20API) |
+| **03** | **Restaurant Management API** | Node.js, Express.js, MongoDB Atlas, JWT Auth, Bcrypt | [assignment-3-restaurant-management-api-lp8b.onrender.com](https://assignment-3-restaurant-management-api-lp8b.onrender.com/) | [Assignment 03](./Assignment%2003%20-%20Restaurant%20Management%20API) |
+| **04** | **Salon Management API** | Node.js, Express.js, Supabase (PostgreSQL), Supabase Auth | [salonmanagementapi.onrender.com](https://salonmanagementapi.onrender.com/) | [Assignment 04](./Assignment%2004%20-%20Salon%20Management%20API) |
+| **05** | **Tic Tac Toe Multiplayer Game** | Node.js, Express.js, Socket.io, Real-time Rooms | [tic-tac-toe-qxvh.onrender.com](https://tic-tac-toe-qxvh.onrender.com/) | [Assignment 05](./Assignment%2005%20-%20Tic%20Tac%20Toe%20Socket%20Game) |
+| **06** | **Library Management API** | Node.js, Express.js, Firebase Firestore/Auth, Swagger Docs | [librarymanagementapi-syeu.onrender.com](https://librarymanagementapi-syeu.onrender.com/)<br>• [Swagger UI Docs](https://librarymanagementapi-syeu.onrender.com/api-docs) | [Assignment 06](./Assignment%2006%20-%20Library%20Management%20API) |
+| **07** | **E-Commerce Product & Cart API** | Node.js, Express.js, `fs/promises` JSON Storage, Sessions | [itm-assignment-07-ecommerce-api.onrender.com](https://itm-assignment-07-ecommerce-api.onrender.com/) | [Assignment 07](./Assignment%2007%20-%20Ecommerce%20Product%20%26%20Cart%20API) |
+| **08** | **Gym & Fitness Management API** | Node.js, Express.js, MongoDB, Mongoose, Passport-Local | [itm-assignment-08-gym-api.onrender.com](https://itm-assignment-08-gym-api.onrender.com/) | [Assignment 08](./Assignment%2008%20-%20Gym%20Management%20API) |
+| **09** | **Pharmacy Management API** | Node.js, Express.js, MongoDB Atlas, JWT, RBAC | [itm-assignment-09-pharmacy-api.onrender.com](https://itm-assignment-09-pharmacy-api.onrender.com/) | [Assignment 09](./Assignment%2009%20-%20Pharmacy%20Management%20API) |
+| **10** | **Car Rental & Fleet System API** | Node.js, Express.js, Supabase Database & Auth | [itm-assignment-10-car-rental-api.onrender.com](https://itm-assignment-10-car-rental-api.onrender.com/) | [Assignment 10](./Assignment%2010%20-%20Car%20Rental%20System%20API) |
+| **11** | **Collaborative Whiteboard** | Node.js, Express.js, Socket.io, Real-time Canvas Sync | [itm-assignment-11-whiteboard.onrender.com](https://itm-assignment-11-whiteboard.onrender.com/) | [Assignment 11](./Assignment%2011%20-%20Real-Time%20Collaborative%20Whiteboard) |
+| **12** | **Event Ticketing API** | Node.js, Express.js, Firebase Firestore, Swagger OpenAPI | [itm-assignment-12-event-ticketing.onrender.com](https://itm-assignment-12-event-ticketing.onrender.com/)<br>• [Swagger UI Docs](https://itm-assignment-12-event-ticketing.onrender.com/api-docs) | [Assignment 12](./Assignment%2012%20-%20Event%20Management%20%26%20Ticketing%20API) |
+| **13** | **Real-Time Group Chat** | Node.js, Express.js, Socket.io, Chat Rooms, Typing, Presence | [itm-assignment-13-chat-socket.onrender.com](https://itm-assignment-13-chat-socket.onrender.com/) | [Assignment 13](./Assignment%2013%20-%20Real-Time%20Chat%20Application) |
+| **14** | **Multiplayer Live Quiz Platform** | Node.js, Express.js, Socket.io, Live Timers, Leaderboard | [itm-assignment-14-quiz-socket.onrender.com](https://itm-assignment-14-quiz-socket.onrender.com/)<br>• [Host Screen](https://itm-assignment-14-quiz-socket.onrender.com/host.html)<br>• [Player GamePad](https://itm-assignment-14-quiz-socket.onrender.com/player.html) | [Assignment 14](./Assignment%2014%20-%20Real-Time%20Live%20Quiz%20Platform) |
+| **15** | **Real-Time Live Auction Platform** | Node.js, Express.js, Socket.io, Live Outbidding & Anti-Snipe | [itm-assignment-15-auction-socket.onrender.com](https://itm-assignment-15-auction-socket.onrender.com/) | [Assignment 15](./Assignment%2015%20-%20Real-Time%20Live%20Auction%20Platform) |
 
 ---
 
-## 🛠️ General Environment & Tooling Prerequisites
+## 🚀 How to Deploy on Render
 
-Students should ensure their local development environment is set up with:
+### Option A: Render Blueprints (Instant One-Click Deployment)
+This repository includes a pre-configured [`render.yaml`](./render.yaml) file:
+1. Push this repository to your **GitHub** account.
+2. Go to [dashboard.render.com](https://dashboard.render.com/) ➔ Click **New +** ➔ Select **Blueprint**.
+3. Connect your GitHub repository.
+4. Render will automatically read `render.yaml` and provision all 15 services with their build commands and root directories!
+
+### Option B: Deploying Individual Assignments Manually
+1. In Render Dashboard, click **New +** ➔ **Web Service**.
+2. Select your repository.
+3. Configure the specific assignment settings:
+   - **Root Directory:** e.g. `Assignment 07 - Ecommerce Product & Cart API/RajRasal_150096725066`
+   - **Build Command:** `npm install`
+   - **Start Command:** `node server.js`
+   - **Environment Variables:** Add keys from the respective `.env.example` file.
+4. Click **Deploy Web Service**.
+
+---
+
+## 🛠️ Environment & Tooling Prerequisites
+
 1. **Node.js**: v18.x or v20.x LTS ([nodejs.org](https://nodejs.org/))
 2. **npm**: v9.x or higher
-3. **Git**: Installed and configured with GitHub credentials
-4. **Postman / Thunder Client**: For API testing and request collection exports
-5. **Database Accounts / Tools**:
-   - MongoDB Community Edition / MongoDB Compass (for local DB assignments)
-   - MongoDB Atlas Account ([mongodb.com/atlas](https://www.mongodb.com/atlas))
+3. **Database Accounts / Tools**:
+   - MongoDB Compass / MongoDB Atlas ([mongodb.com/atlas](https://www.mongodb.com/atlas))
    - Supabase Account ([supabase.com](https://supabase.com/))
-   - Firebase Console Account ([console.firebase.google.com](https://console.firebase.google.com/))
+   - Firebase Console ([console.firebase.google.com](https://console.firebase.google.com/))
 
 ---
 
 ## 📐 General Code Quality & Architectural Standards
 
-All submissions across all assignments are expected to maintain the following engineering practices:
-
+All submissions across all assignments maintain the following engineering practices:
 1. **MVC / Layered Architecture**:
    - `controllers/`: Request handling and response logic
    - `models/`: Data schema and database interfaces
@@ -54,31 +71,12 @@ All submissions across all assignments are expected to maintain the following en
    - `config/`: Database connections and third-party SDK configurations
 2. **Security & Secrets Management**:
    - Never commit sensitive keys, JWT secrets, database connection strings, or service account files (`.env` must be in `.gitignore`).
-   - Provide a clean `.env.example` file in every project.
+   - Clean `.env.example` provided in every project.
 3. **Robust Error Handling**:
-   - Use standard HTTP status codes (`200`, `201`, `400`, `401`, `403`, `404`, `429`, `500`).
-   - Standardized JSON error response format:
-     ```json
-     {
-       "success": false,
-       "message": "Descriptive error message",
-       "error": "Error details (optional in development)"
-     }
-     ```
+   - Standardized JSON responses with standard HTTP status codes (`200`, `201`, `400`, `401`, `403`, `404`, `429`, `500`).
 4. **Real-time Event Conventions (Socket.io)**:
-   - Consistent event naming conventions: `noun:action` (e.g. `room:join`, `message:receive`, `bid:placed`).
-   - Always acknowledge or broadcast updates with structured payloads.
+   - Consistent event naming conventions: `noun:action` (e.g. `board:join`, `chat:send`, `bid:placed`).
 
 ---
 
-## 📊 Standard Grading Rubric (100 Marks per Assignment)
-
-- **Core Functionality & Requirements (40 Marks)**: All mandatory endpoints/events work as specified.
-- **Architecture & Code Organization (20 Marks)**: Clean folder structure, modular code, no code duplication.
-- **Authentication, Authorization & Security (15 Marks)**: Safe password hashing, token validation, role checking.
-- **Data Validation & Error Handling (15 Marks)**: Handled edge cases, bad inputs, meaningful error status codes.
-- **Documentation & Testing (10 Marks)**: Detailed README, Postman collection / demo video link, clear setup steps.
-
----
-
-© 2026 ITM Skills University. All rights reserved.
+© 2026 ITM Skills University — Department of Computer Science & Engineering. All rights reserved.

@@ -1,0 +1,10 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "description": "Library Management REST API",
+  "scripts": {
+    "postinstall": "cd RajRasal_150096725066 && npm install",
+    "build": "cd RajRasal_150096725066 && npm install",
+    "start": "cd RajRasal_150096725066 && npm start"
+  }
+}

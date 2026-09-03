@@ -1,0 +1,213 @@
+# Render Blueprint Configuration for ITM Backend Curriculum (Assignments 1 to 15)
+# Author: Raj Rasal (150096725066)
+
+services:
+  # Assignment 01
+  - type: web
+    name: itm-assignment-01-hotel-api
+    runtime: node
+    plan: free
+    rootDir: Assignment 01 - Hotel Management API/Raj_Rasal_150096725066
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 10000
+
+  # Assignment 02
+  - type: web
+    name: itm-assignment-02-hospital-api
+    runtime: node
+    plan: free
+    rootDir: Assignment 02 - Hospital Management API/Raj_Rasal_150096725066
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: MONGO_URI
+        sync: false
+
+  # Assignment 03
+  - type: web
+    name: itm-assignment-03-restaurant-api
+    runtime: node
+    plan: free
+    rootDir: Assignment 03 - Restaurant Management API/RajRasal_150096725066
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: MONGO_URI
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+
+  # Assignment 04
+  - type: web
+    name: itm-assignment-04-salon-api
+    runtime: node
+    plan: free
+    rootDir: Assignment 04 - Salon Management API/Raj_Rasal_150096725066
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+
+  # Assignment 05
+  - type: web
+    name: itm-assignment-05-tic-tac-toe
+    runtime: node
+    plan: free
+    rootDir: Assignment 05 - Tic Tac Toe Socket Game/Raj_Rasal_150096725066
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 10000
+
+  # Assignment 06
+  - type: web
+    name: itm-assignment-06-library-api
+    runtime: node
+    plan: free
+    rootDir: Assignment 06 - Library Management API/RajRasal_150096725066
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: JWT_SECRET
+        generateValue: true
+
+  # Assignment 07
+  - type: web
+    name: itm-assignment-07-ecommerce-api
+    runtime: node
+    plan: free
+    rootDir: Assignment 07 - Ecommerce Product & Cart API/RajRasal_150096725066
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: SESSION_SECRET
+        generateValue: true
+
+  # Assignment 08
+  - type: web
+    name: itm-assignment-08-gym-api
+    runtime: node
+    plan: free
+    rootDir: Assignment 08 - Gym Management API/RajRasal_150096725066
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: MONGO_URI
+        sync: false
+      - key: SESSION_SECRET
+        generateValue: true
+
+  # Assignment 09
+  - type: web
+    name: itm-assignment-09-pharmacy-api
+    runtime: node
+    plan: free
+    rootDir: Assignment 09 - Pharmacy Management API/RajRasal_150096725066
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: MONGO_URI
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: ADMIN_SECRET_KEY
+        value: admin_master_setup_key_2026
+
+  # Assignment 10
+  - type: web
+    name: itm-assignment-10-car-rental-api
+    runtime: node
+    plan: free
+    rootDir: Assignment 10 - Car Rental System API/RajRasal_150096725066
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+
+  # Assignment 11
+  - type: web
+    name: itm-assignment-11-whiteboard-socket
+    runtime: node
+    plan: free
+    rootDir: Assignment 11 - Real-Time Collaborative Whiteboard/RajRasal_150096725066
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 10000
+
+  # Assignment 12
+  - type: web
+    name: itm-assignment-12-event-ticketing-api
+    runtime: node
+    plan: free
+    rootDir: Assignment 12 - Event Management & Ticketing API/RajRasal_150096725066
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: JWT_SECRET
+        generateValue: true
+
+  # Assignment 13
+  - type: web
+    name: itm-assignment-13-chat-socket
+    runtime: node
+    plan: free
+    rootDir: Assignment 13 - Real-Time Chat Application/RajRasal_150096725066
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 10000
+
+  # Assignment 14
+  - type: web
+    name: itm-assignment-14-quiz-socket
+    runtime: node
+    plan: free
+    rootDir: Assignment 14 - Real-Time Live Quiz Platform/RajRasal_150096725066
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 10000
+
+  # Assignment 15
+  - type: web
+    name: itm-assignment-15-auction-socket
+    runtime: node
+    plan: free
+    rootDir: Assignment 15 - Real-Time Live Auction Platform/RajRasal_150096725066
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 10000
