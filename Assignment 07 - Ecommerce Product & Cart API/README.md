@@ -1,4 +1,10 @@
 # 🛒 Assignment 07: E-Commerce Product & Shopping Cart API
+
+---
+
+## 🌐 Live Production Deployment on Render
+- **Live Production URL:** [https://assignment-7-e-commerce-product-and.onrender.com](https://assignment-7-e-commerce-product-and.onrender.com)
+
 > **Track:** Backend Development | **Level:** Beginner to Intermediate | **Estimated Time:** 5–7 Hours  
 > **Tech Stack:** Node.js, Express.js, JSON / File-System Data Storage (`fs/promises`), bcryptjs, Express-Session
 

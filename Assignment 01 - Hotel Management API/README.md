@@ -1,4 +1,10 @@
 # 🏨 Assignment 01: Hotel Management REST API
+
+---
+
+## 🌐 Live Production Deployment on Render
+- **Live Production URL:** [https://hotelmanagementapi-74g8.onrender.com](https://hotelmanagementapi-74g8.onrender.com)
+
 > **Track:** Backend Development | **Level:** Beginner | **Estimated Time:** 4–6 Hours  
 > **Tech Stack:** Node.js, Express.js, In-Memory Data Storage, bcryptjs, Passport.js (Local Strategy), Express-Session
 
